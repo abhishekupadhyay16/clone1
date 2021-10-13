@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Whatsapp User</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .main {
+        display: flex;
+      }
+      .left-side {
+        width: 40%;
+      }
+      .headbar {
+        background-color: rgb(223, 223, 231);
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem;
+      }
+      .headbar img {
+        height: 3em;
+        width: 3em;
+        border-radius: 50%;
+        margin-right: 1em;
+      }
+      .icons {
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.5em;
+        color: rgb(46, 44, 44);
+      }
+      .icons div {
+        margin: 0.4em 0.5em;
+      }
+      .search-bar {
+        display: flex;
+        border: 0.5px solid rgb(77, 73, 73);
+        padding: 0.4em;
+      }
+      .search-bar div {
+        margin: 0.4em 0.5em;
+      }
+      .search-bar input {
+        border: none;
+        width: 100%;
+      }
+      .user-list {
+        padding: 0.3em 0;
+      }
+      .users {
+        display: flex;
+      }
+      .users img {
+        height: 5em;
+        width: 7em;
+        border-radius: 50%;
+      }
+      h4 {
+        padding: 0.4em;
+        font-weight: bold;
+        font-size: 1.5rem;
+      }
+      .users p {
+        font-size: 1em;
+        margin: 0 0.4em;
+      }
+      .right-side {
+        background-color: rgb(238, 232, 232);
+        width: 95%;
+      }
+      .head-right {
+        background-color: rgb(223, 223, 231);
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem;
+      }
+      .user-name {
+        display: flex;
+      }
+      .user-name img {
+        height: 3em;
+        width: 3em;
+        border-radius: 50%;
+        margin-right: 1em;
+      }
+      .user-det p {
+        font-size: 0.9em;
+        margin: 0 0.4em;
+      }
+      .right-icons {
+        font-size: 2em;
+        display: flex;
+        justify-content: space-between;
+      }
+      .right-icons i {
+        color: rgb(46, 44, 44);
+        padding: 0.5em 0.5em;
+      }
+      .bg-image img {
+        width: 100%;
+        height: 70vh;
+        margin-bottom: 1em;
+      }
+
+      .msg-bar {
+        margin: 0;
+        background-color: #fff;
+        display: flex;
+      }
+      .msg-bar i {
+        font-size: 2.5rem;
+        padding: 0 0.8em;
+      }
+      .msg-bar input {
+        padding: 1em;
+        height: 1em;
+        width: 100%;
+      }
+    </style>
+    <script
+      src="https://kit.fontawesome.com/53ecc72407.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="left-side">
+        <div class="headbar">
+          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconspng.com%2Fimage%2F100132%2Ffemale-user-icon-trimmed&psig=AOvVaw0hAgscv5-bovpcVYfEbqE1&ust=1634214998506000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjU0bWzx_MCFQAAAAAdAAAAABAI" alt="user" />
+          <div class="icons">
+            <div><i class="fas fa-spinner"></i></div>
+            <div><i class="fas fa-bars"></i></div>
+          </div>
+        </div>
+        <div class="search-bar">
+          <div><i class="fas fa-search"></i></div>
+          <input type="text" placeholder="Search for person..." />
+        </div>
+        <div class="user-list">
+          <div class="users">
+            <img
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ASample_User_Icon.png&psig=AOvVaw0hAgscv5-bovpcVYfEbqE1&ust=1634214998506000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjU0bWzx_MCFQAAAAAdAAAAABAD"
+              alt="user-image"
+            />
+            <div class="message">
+              <h4>John Doe</h4>
+              <p>Hello user</p>
+            </div>
+          </div>
+          <hr />
+          <div class="users">
+            <img
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ASample_User_Icon.png&psig=AOvVaw0hAgscv5-bovpcVYfEbqE1&ust=1634214998506000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjU0bWzx_MCFQAAAAAdAAAAABAD"
+              alt="user-image"
+            />
+            <div class="message">
+              <h4>Jack</h4>
+              <p>Hey, available?</p>
+            </div>
+          </div>
+          <hr />
+          <div class="users">
+            <img
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ASample_User_Icon.png&psig=AOvVaw0hAgscv5-bovpcVYfEbqE1&ust=1634214998506000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjU0bWzx_MCFQAAAAAdAAAAABAD"
+              alt="user-image"
+            />
+            <div class="message">
+              <h4>Michelle</h4>
+              <p>Hi there !!</p>
+            </div>
+          </div>
+          <hr />
+          <div class="users">
+            <img
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ASample_User_Icon.png&psig=AOvVaw0hAgscv5-bovpcVYfEbqE1&ust=1634214998506000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjU0bWzx_MCFQAAAAAdAAAAABAD"
+              alt="user-image"
+            />
+            <div class="message">
+              <h4>Jane Mic</h4>
+              <p>Hello, How you doing?</p>
+            </div>
+          </div>
+          <hr />
+          <div class="users">
+            <img
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ASample_User_Icon.png&psig=AOvVaw0hAgscv5-bovpcVYfEbqE1&ust=1634214998506000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjU0bWzx_MCFQAAAAAdAAAAABAD"
+              alt="user-image"
+            />
+            <div class="message">
+              <h4>Marie Rose</h4>
+              <p>Up for a party?</p>
+            </div>
+          </div>
+          <hr />
+          <div class="users">
+            <img
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ASample_User_Icon.png&psig=AOvVaw0hAgscv5-bovpcVYfEbqE1&ust=1634214998506000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjU0bWzx_MCFQAAAAAdAAAAABAD"
+              alt="user-image"
+            />
+            <div class="message">
+              <h4>Mike</h4>
+              <p>Hello, hope you are well :)</p>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <hr />
+      <div class="right-side">
+        <div class="head-right">
+          <div class="user-name">
+            <img
+              src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.m.wikipedia.org%2Fwiki%2FFile%3ASample_User_Icon.png&psig=AOvVaw0hAgscv5-bovpcVYfEbqE1&ust=1634214998506000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPjU0bWzx_MCFQAAAAAdAAAAABAD"
+              alt="user-image"
+            />
+            <div class="user-det">
+              <h4>Marie</h4>
+              <p>last seen 4 hours ago...</p>
+            </div>
+          </div>
+          <div class="right-icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-paperclip"></i>
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+        <div class="bg-image">
+          <img
+            src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgist.github.com%2Fabdurrahmanekr%2F2747d704edec93a06e454eba2653e0df&psig=AOvVaw0kO732IJiQuH7XA6NMPGHe&ust=1634215145469000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKD_qf2zx_MCFQAAAAAdAAAAABAD"
+            alt="bg"
+          />
+        </div>
+        <div class="msg-bar">
+          <i class="far fa-grin-alt"></i>
+          <input type="text" placeholder="Type a message" />
+          <i class="fas fa-microphone"></i>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
